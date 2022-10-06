@@ -1,0 +1,113 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.pro-details{
+    background-color: #F9F3F0;
+
+    .img{
+        margin-top: 20px;
+    }
+    img{
+        border-radius: 10px;
+    }
+    .right{
+        top: 10%;
+        .bx{
+            margin-left: 10%;
+            span{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .img{
+          
+                padding: 15px 25px;
+                background-color: white;
+                border-radius: 100%;
+            }
+        }
+       .heart{
+        margin-left: 20px;
+           border: 1px solid rgb(201, 201, 201);
+           padding: 16px 15px;
+          transition: 1s;
+          vertical-align: middle;
+           border-radius: 10px;
+        }
+        .numr{
+            span {cursor:pointer; }
+          
+            .minus, .plus{
+                border-radius:100%;
+                height:30px;
+                width: 30px;
+                border:1px solid #ddd;
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+            }
+            input{
+                height:34px;
+          width: 50px;
+          text-align: center;
+          font-size: 26px;
+              border: none;
+              background-color:#F9F3F0 ;
+                border-radius:4px;
+          display: inline-block;
+          vertical-align: middle;
+    }
+        }
+
+        .size{
+
+            .btn{
+                 padding: 0 20px;
+                  
+           }
+        }
+        p{
+            color:gray;
+        }
+        .product-meta{
+            li{
+                color: #3676ee;
+                list-style: none;
+            }
+        }
+        a{
+            color: gray;
+            padding-left: 10px;
+        }
+       .star-rating{
+          i{
+            color: #FFDC60;
+          }
+       }
+    }
+    
+}
+
+.numr a:hover {
+   background-color: #3676ee;
+   
+}
+
+@media (max-width:576px){
+    .heart{
+        display: none;
+    }
+    .subscribe{
+        input{
+            padding-right: 10px !important;
+        }
+    }
+  
+}
+

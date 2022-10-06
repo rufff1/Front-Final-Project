@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  overflow-y: hidden;
+}
+.header .img {
+  height: 100vh;
+}
+.header .log {
+  width: 10%;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  z-index: 12434345;
+}
+.header .ok {
+  font-weight: bold;
+  padding-top: 20%;
+  font-size: 30px;
+  left: 4%;
+  top: -10%;
+  z-index: 1;
+}
+.header .right {
+  margin-right: 4%;
+  margin-top: 4%;
+}
+.header .right button {
+  padding: 10px 20px;
+  background-color: #FF497C;
+  color: white;
+  font-weight: bold;
+}
+
+.center {
+  margin-left: 30%;
+  margin-top: 15%;
+}
+.center .text .add {
+  align-items: center;
+  display: flex;
+}
+.center .text .add span {
+  margin-left: 100px;
+}
+.center .text button {
+  border-radius: 5px;
+  border-color: blue;
+  text-align: left;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: blue;
+}
+.center .text h6 {
+  margin-bottom: 40px;
+}
+.center .text input {
+  border: 1px solid gray;
+  padding: 15px 70px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.center .text .maill {
+  position: relative;
+  margin-bottom: 20px;
+}
+.center .text .number {
+  position: relative;
+}
+.center .text p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+@media (max-width: 576px) {
+  .header .log {
+    width: 30%;
+  }
+  .header .img {
+    display: none;
+  }
+  .header p {
+    display: none;
+  }
+  .header .center {
+    margin-left: 20%;
+    margin-top: 23%;
+  }
+}/*# sourceMappingURL=login.css.map */

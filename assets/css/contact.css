@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contacts {
+  margin-top: 40px;
+}
+#contacts .headd h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+#contacts .headd p {
+  color: #777777;
+}
+#contacts .bttn {
+  margin-right: 20px;
+}
+#contacts .btn {
+  padding: 16px 42px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#contacts .second {
+  display: flex;
+  margin-top: 50px;
+}
+#contacts .second input {
+  padding: 15px 40px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 1px;
+}
+#contacts .second .name {
+  position: relative;
+}
+#contacts .second .number {
+  position: relative;
+}
+#contacts .second .mail {
+  position: relative;
+}
+#contacts .second p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+#contacts .second p span {
+  color: red;
+}
+#contacts .foter {
+  margin-top: 20px;
+  position: relative;
+}
+#contacts .foter textarea {
+  border-radius: 5px;
+  width: 96%;
+  padding-bottom: 15%;
+}
+#contacts .foter p {
+  color: #777777;
+  position: absolute;
+  left: 41px;
+  top: -10px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+#contacts .foter p span {
+  color: red;
+}
+#contacts .loc {
+  margin-left: 35px;
+}
+#contacts .loc h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+#contacts .loc p {
+  font-size: 15px;
+  color: #777777;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#maparea {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#maparea .map iframe {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.head-phone {
+  display: none;
+}
+
+.phone {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .head-phone {
+    display: block;
+    padding-top: 30px;
+  }
+  .phone {
+    display: block;
+  }
+  .phone .side-bar-right {
+    max-width: 50% !important;
+  }
+  .phone .side-bar-right a {
+    text-decoration: none;
+    color: gray;
+    padding-left: 20px;
+  }
+  .phone .side-bar-right li {
+    list-style: none;
+    font-size: 17px;
+    padding-bottom: 30px;
+  }
+}
+.back-to-top {
+  opacity: 0;
+  transition: 0.5s;
+  padding: 12px 16px;
+  background-color: blue;
+  border-radius: 6px;
+  position: fixed;
+  bottom: 45px;
+  right: 35px;
+  z-index: 111;
+}
+.back-to-top i {
+  color: white;
+}/*# sourceMappingURL=contact.css.map */
